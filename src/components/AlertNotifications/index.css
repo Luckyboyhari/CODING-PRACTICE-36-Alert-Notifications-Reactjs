@@ -1,0 +1,119 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.app-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .card-con {
+    width: 85%;
+    max-width: 1110px;
+  }
+}
+
+.head {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 48px;
+  }
+}
+
+.icon {
+  height: 70px;
+  min-width: 30px;
+  margin-right: 14px;
+}
+
+.msg-con {
+  margin-top: 4px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .msg-con {
+    margin-top: 0px;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 24px;
+  }
+}
+
+.para {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .para {
+    font-size: 20px;
+  }
+}
+
+.success-heading {
+  color: #2dca73;
+}
+
+.error-heading {
+  color: #ff0b37;
+}
+
+.war-heading {
+  color: #ffb800;
+}
+
+.info-heading {
+  color: #0f81e0;
+}
+.success {
+  color: #2dca73;
+}
+
+.error {
+  color: #ff0b37;
+}
+
+.warning {
+  color: #ffb800;
+}
+
+.info {
+  color: #0f81e0;
+}
+.main-con {
+  display: flex;
+  flex-direction: row;
+}
